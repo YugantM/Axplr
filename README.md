@@ -1,4 +1,4 @@
-# <img src="/Users/yuganthadiyal/Documents/GitHub/Axplr/assests/images/logo.svg" alt="logo" style="zoom:10%;" /> Axplr
+# <img src="./assests/images/logo.svg" alt="logo" style="zoom:10%;" /> Axplr
 
 
 
