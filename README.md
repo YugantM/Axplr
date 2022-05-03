@@ -1,4 +1,4 @@
-# <img src="./assests/images/logo.svg" alt="logo" style="zoom:10%;" /> Axplr
+# <img src="./assests/images/logo.svg" alt="logo" width='50' width='50' style='border-radius:20%'/> Axplr
 
 
 
