@@ -3,7 +3,9 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("an awesome dashboard is on its way")
+    
+
+    return render(request, 'index.html')
 
 # Create your views here.
 
