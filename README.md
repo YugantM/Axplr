@@ -2,7 +2,7 @@
 
 
 
-This repo will contain source code for data dashboard to navigate through local or remote databases.
+This repo will contain source code for data exploration dashboard.
 
 
 
