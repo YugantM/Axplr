@@ -12,19 +12,20 @@
 </head>
 <body >
 
-
 <div class="container" style="background-color: black;">
-
-
 
 <center>
 	<br><br><br><br><br><br><br>
 
-	<img src="{% static 'media/logo.svg' %}" class='logo'><br><br>
-<h1> Welcome to Axplr </h1><br>
+<img src="{% static 'media/logo.svg' %}" class='logo'></br>
+<br><br>
 
-<button class="btn btn-primary" onclick="location.href='{% url 'login' %}'">Log In</button>
-
+<!-- templates/registration/login.html -->
+<form method="post" id='login'>
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Log In</button>
+</form>
 
 </center>
 
@@ -59,6 +60,18 @@ body{
 	border-bottom: 2px solid white;
 	border-left: 1px solid red;
 
+}
+
+label{
+	display: None;
+
+}
+
+input{
+	background-color: black;
+	color: white;
+	border: 1px solid red;
+	height: 40px;
 }
 
 </style>
